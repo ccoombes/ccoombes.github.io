@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 layout: splash
-permalink: /
+permalink: /splash/
 date: 2020-04-08
 header:
   overlay_color: "#000"
