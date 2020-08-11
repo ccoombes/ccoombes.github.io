@@ -3,6 +3,4 @@ main:
     url: /posts/
   - title: "About"
     url: /about/
-  - title: "Home Lab"
-    url: /homelab/
     

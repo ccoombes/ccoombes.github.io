@@ -13,7 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Chris Coombes
+title: ChrisCoombes.com
+title_separator: "-"
+subtitle: "Journey to the clouds" # site tagline that appears below site title in masthead
 logo: "/assets/images/logo.png"
 email: ccoombes@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -22,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: ccoombes83
 github_username: ccoombes
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: air
 teaser: /assets/splash/splash.jpg
 search: true
 
@@ -60,8 +62,10 @@ plugins:
   - jekyll-include-cache
 
 author:
+  name : Chris Coombes 
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "\"I have not failed. I’ve just found 10,000 ways that won’t work.\" <br> – Thomas Edison"
+  location : "Sydney / Australia"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

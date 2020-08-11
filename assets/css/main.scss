@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Add this before imports
+$tq-blue: #342797;
+$deepmind-blue: #15244a; 
+$dark-grey: #4A4A4A;
+$bain-red: #CC0800;
+
+$link-color: $dark-grey;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+html {
+  font-size: 12px; // change to whatever
+  background-color: white;
+
+  @include breakpoint($medium) {
+    font-size: 14px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
+}
+
+.greedy-nav {
+    background: white;
+}
+
+// .greedy-nav a { color: $deepmind-blue; } // link color TQ blue
+// .greedy-nav a { color: red; } // link color 
+// .greedy-nav a { color: #15244a; } // link color deepmind blue
+
+// // Hide side title
+// .greedy-nav .site-title {
+//   opacity: 1;
+// }
