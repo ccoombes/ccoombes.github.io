@@ -10,7 +10,7 @@ tags:
 Why am I starting a blog? The reasons for setting up a personal website or blog will vary significantly. For me the primary objectives for going down this path are;
 - To gain a deeper understanding of the topics researched.
 - To document new skills learnt using the methodology "You Never Really Learn Something Until You Teach It". 
-- A way to validate my knowledge to peers and future employers.
+- A way to validate my knowledge.
 - To improve my written communication.
 
 Why now? With a global pandemic rampant, enforced 'working from home' policies, the immediate future looking a little grim, this may seem like an odd time to start. After never working from home for more than a single day in my entire career, I was excited by the opportunity the situation presented. The extra time I would get to spend with my young family and the personal development opportunities it enables. 
