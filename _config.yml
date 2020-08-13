@@ -118,6 +118,7 @@ defaults:
       layout: single
       author_profile: true
 
+# enable comments
 comments:
   provider: "disqus"
   disqus:

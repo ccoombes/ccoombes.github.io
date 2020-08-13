@@ -1,30 +1,42 @@
 ---
-title: "Welcome to my Blog!"
+title: "The why ..."
 date: 2020-07-11T12:51:30-04:00
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - Introduction
+  - Cloud
 ---
-Thought about starting a blog for many years, thought stuck at home due to global pandamtic would force my hand, so 4 months into that pandemtic i have finally got it going
+Why am I starting a blog? The reasons for setting up a personal website or blog will vary significantly. For me the primary objectives for going down this path are;
+- To gain a deeper understanding of the topics researched.
+- To document new skills learnt using the methodology "You Never Really Learn Something Until You Teach It". 
+- A way to validate my knowledge to peers and future employers.
+- To improve my written communication.
 
-Why the delay? thought i had nothin useful to day, everything i wanted say some one had already created that content, being ridiculed by peers, thinking i don't have time for that
+Why now? With a global pandemic rampant, enforced 'working from home' policies, the immediate future looking a little grim, this may seem like an odd time to start. After never working from home for more than a single day in my entire career, I was excited by the opportunity the situation presented. The extra time I would get to spend with my young family and the personal development opportunities it enables. 
 
-My career as spanned the full spectrum of it roles, helpdesk to management. With a career working solely for large manufacturing organisations I have have always had the 'luxury' of working with on-premise infrastructure, this has been limiting in its exposure to modern devops practises and techniques.
+It would seem people have reacted in two ways to these circumstances.  Either better themselves through learning new skills, enhancing their fitness, improving diets or the opposite, binging Netflix, eating junk, generally hating on the world and if you are in Australia hoarding toilet paper.
 
-i'm using this blog to force my hand in developing my skils in these area's
+<figure class="full">
+    <a href="https://www.pedestrian.tv/content/uploads/2020/03/04/toilet-paper-crisis-memes-social-1.png"><img src="https://www.pedestrian.tv/content/uploads/2020/03/04/toilet-paper-crisis-memes-social-1.png"></a>
+    <figcaption>Simpsons toilet paper meme</figcaption>
+</figure> 
 
-topics including;
+I think I'm the first type and have focused heavily on my fitness and diet, the one outstanding area for development was to work on learning some new skills. Like many techies, I love researching and playing with new technologies, from reading blogs, watching training videos to tinkering in my home lab. While this is enjoyable, the knowledge gained always ends up as scattered thoughts lacking the structure needed to be fully absorbed and to then use the content constructively. Starting this blog is my way of bringing these ideas together. Leaning on a key objective I highlighted earlier, to convey a message to transfer knowledge to others, this format forces a deep understanding of each topic presented.
 
-- vmware
-- docker
-- jenkins
-- ansible
-- terraform
-- credential management - hashicorp vault
-- source control - git
-- monitoring - prometheus
-- logging - elk
-- cmdb
+Why the delay? The usual reasons that go through one's mind when presenting themselves publically; 
+- No one wants to listen to anything I have to say.
+- My writing isn't good enough.
+- Someone 'smarter' than me has already written about that.
+- The fear of being ridiculed by peers.
+- What if no one reads what I write?
+- I don't have time for that.
 
+In the end, these are all worthless excuses if you want to improve yourself then you need to bite the bullet and get it done.
+
+> Some people want it to happen, some wish it would happen, others make it happen.  
+> <cite>Michael Jordan</cite>
+
+What topics will be covered? In a career that has spanned almost 15 years across the full spectrum of IT Operations roles, service desk to management. While I will lean on my experiences from the over the years, these roles have primarily been with manufacturing organizations with a focus on traditional on-premise infrastructure. The primary focus of this blog will be the discovery of the 'modern' infrastructure landscape and the practices that enable it. 
+
+Follow my journey to the clouds!
