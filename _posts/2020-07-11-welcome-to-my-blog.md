@@ -6,8 +6,10 @@ categories:
 tags:
   - Introduction
   - Cloud
+  - DevOps
+  - COVID
 ---
-Why am I starting a blog? The reasons for setting up a personal website or blog will vary significantly. For me the primary objectives for going down this path are;
+Why am I starting a blog? TFor a seasoned IT professional, there many reasons for setting up a personal website or blog which will vary person to person. For me the primary objectives for going down this path are;
 - To gain a deeper understanding of the topics researched.
 - To document new skills learnt using the methodology "You Never Really Learn Something Until You Teach It". 
 - A way to validate my knowledge.
@@ -22,7 +24,8 @@ It would seem people have reacted in two ways to these circumstances.  Either be
     <figcaption>Simpsons toilet paper meme</figcaption>
 </figure> 
 
-I think I'm the first type and have focused heavily on my fitness and diet, the one outstanding area for development was to work on learning some new skills. Like many techies, I love researching and playing with new technologies, from reading blogs, watching training videos to tinkering in my home lab. While this is enjoyable, the knowledge gained always ends up as scattered thoughts lacking the structure needed to be fully absorbed and to then use the content constructively. Starting this blog is my way of bringing these ideas together. Leaning on a key objective I highlighted earlier, to convey a message to transfer knowledge to others, this format forces a deep understanding of each topic presented.
+I think I'm the first type and have focused heavily on my fitness and diet, the one outstanding area for development was to work on learning some new skills. Like many techies, I love researching and playing with new technologies, from reading blogs, watching training videos to tinkering in my home lab. While this is enjoyable, the knowledge gained always ends up as scattered thoughts lacking the structure needed to be fully absorbed and used constructively. Starting this blog is my way of bringing these ideas together. Leaning on a key objective I highlighted earlier, the best way to deeply understand a topic is to teach someone else about it. 
+
 
 Why the delay? The usual reasons that go through one's mind when presenting themselves publically; 
 - No one wants to listen to anything I have to say.
