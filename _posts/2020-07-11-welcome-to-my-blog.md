@@ -9,7 +9,7 @@ tags:
   - DevOps
   - COVID
 ---
-Why am I starting a blog? TFor a seasoned IT professional, there many reasons for setting up a personal website or blog which will vary person to person. For me the primary objectives for going down this path are;
+Why am I starting a blog? For a seasoned IT professional, there many reasons for setting up a personal website or blog which will vary person to person. For me the primary objectives for going down this path are;
 - To gain a deeper understanding of the topics researched.
 - To document new skills learnt using the methodology "You Never Really Learn Something Until You Teach It". 
 - A way to validate my knowledge.
