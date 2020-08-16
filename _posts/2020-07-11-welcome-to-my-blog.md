@@ -12,7 +12,7 @@ tags:
 Why am I starting a blog? For a seasoned IT professional, there are many reasons for setting up a personal website or blog. Drawing on the ever-evolving technology landscape or documenting the challenges experienced every day, there is a magnitude of content waiting to be published. For me the primary objectives for going down this path are;
 - To gain a deeper understanding of the topics researched.
 - To document new skills using the philosophy "You Never Really Learn Something Until You Teach It". 
-- A way to validate my knowledge to peers and future employers.
+- A way to validate my knowledge.
 - To improve my written communication.
 - Giving back to the community.
 
