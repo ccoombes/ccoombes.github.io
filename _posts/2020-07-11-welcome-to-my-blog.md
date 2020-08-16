@@ -27,7 +27,7 @@ It would seem people have reacted in two ways to these circumstances.  Either be
 
 I think I'm the first type and have focused heavily on my fitness and diet, the one outstanding area for development was to work on learning some new skills. Like many tech enthusiasts, I love researching and playing with new technologies, from reading blogs, watching training videos to tinkering in my home lab. While this is enjoyable, the knowledge gained always ends up as scattered thoughts lacking the structure needed to be fully absorbed and used constructively. Starting this blog is my way of bringing these ideas together. Leaning on a key objective I highlighted earlier, the best way to deeply understand a topic is to teach someone else about it. 
 
-Why the delay? The usual reasons that go through one's mind when publishing online; 
+If it's such a good idea, why the delay? The usual reasons that go through one's mind when publishing online; 
 - No one wants to listen to anything I have to say.
 - My writing isn't good enough.
 - Someone 'smarter' than me has already written about that.
