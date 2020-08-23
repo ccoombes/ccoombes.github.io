@@ -68,7 +68,7 @@ plugins:
 author:
   name : Chris Coombes 
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Experienced IT professional exploring the 'modern' infrastructure landscape and the practices that enable it<br><br>Cloud - DevOps - Automation" 
+  bio    : "Experienced IT professional exploring the 'modern' infrastructure landscape and the practices that enable it.<br><br>Cloud - DevOps - Automation" 
   location : "Sydney / Australia"
   links:
     - label: "Website"
