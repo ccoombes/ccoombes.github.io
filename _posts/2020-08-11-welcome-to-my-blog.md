@@ -1,6 +1,7 @@
 ---
-title: "The why ... Starting a Tech blog!"
+title: "Starting a Tech blog!"
 header:
+    image: /assets/images/posts/welcome-to-my-blog.jpg
     teaser: /assets/images/posts/welcome-to-my-blog-th.jpg
 categories:
   - blog
@@ -38,6 +39,6 @@ In the end, these are all worthless excuses if you want to improve yourself then
 > Some people want it to happen, some wish it would happen, others make it happen.  
 > <cite>Michael Jordan</cite>
 
-What topics will be covered? In a career that has spanned almost 15 years across the full spectrum of IT Operations roles, service desk to management. While I will lean on my experiences from over the years, these roles have primarily been with manufacturing organizations with a focus on traditional on-premise infrastructure. The focus of this blog will be the discovery of the 'modern' infrastructure landscape and the practices that enable it. 
+What topics will be covered? In a career that has spanned almost 15 years across the full spectrum of IT Operations roles, service desk to management. While I will lean on my experiences from over the years, these roles have primarily been with manufacturing organisations with a focus on traditional on-premise infrastructure. The focus of this blog will be the discovery of the 'modern' infrastructure landscape and the practices that enable it. 
 
 Follow my journey to the clouds!
