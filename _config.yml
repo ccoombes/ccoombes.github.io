@@ -13,21 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: ChrisCoombes.com
 title_separator: "-"
 subtitle: "Journey to the clouds" # site tagline that appears below site title in masthead
 logo: "/assets/images/logo.png"
 email: ccoombes@outlook.com
-description: Chris Coombes's personal blog about cloud, devops, powershell, infrastructure as code and automation.
+description: Chris Coombes's personal blog about cloud, devops, infrastructue as code, powershell, windows, linux and automation.
 twitter_username: ccoombes83
 github_username: ccoombes
 minimal_mistakes_skin: air
-teaser: /assets/splash/splash.jpg
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -67,12 +68,12 @@ plugins:
 author:
   name : Chris Coombes 
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "\"I have not failed. I’ve just found 10,000 ways that won’t work.\" <br> – Thomas Edison"
+  bio    : "Experienced IT professional exploring the 'modern' infrastructure landscape and the practices that enable it<br><br>Cloud - DevOps - Automation" 
   location : "Sydney / Australia"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://chriscoombes.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ccoombes83"
