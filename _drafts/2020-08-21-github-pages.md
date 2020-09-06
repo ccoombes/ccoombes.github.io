@@ -1,5 +1,5 @@
 ---
-title: "GitHub Pages basics and why I choose it as the platform for this website"
+title: "Introduction to GitHub Pages and why its the chosen platform for this blog"
 header:
     image: /assets/images/posts/github-pages.jpg
     teaser: /assets/images/posts/github-pages-th.jpg
@@ -17,30 +17,41 @@ tags:
   - HomeBrew
   - MarkDown
 ---
-As evident from the tag line of this site "Journey to the clouds" and the themes highlighted in my initial post, the criteria for setting up this site was documenting my discovery of modern infrastructure and the practices that enables it. One such practise considered to be a key enabler of modern infrastructure is the concept of Infrastructure as Code, which as the name would indicate offers the ability to describe the desired state of your infrastructure as code. While the concept in theory is sound, through its ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process.  
+As the tag line of this site and the themes highlighted in my initial post would indicate, the primary driver for setting up this site was to document my learnings of the practices that enable and power the modern cloud technologies. To gain the full operational benefit of these practises relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. The concept of Infrastructure as Code (IaC) introduces an infrastructure deployment process which describes in text files the desired state of the systems. While the theory is sound, through the ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process. 
 
-Thankfully there are plenty of tools already available to manage source files, both opensource and commercial offerings. The use of source control has traditionally only been within the developer community, its use is quickly becoming more prevalent across the full range of IT roles. The most common of these tools is the opensource offering Git.
+In a large environment, this will consist of hundreds if not thousands of files, including multiple versions. These files all need to be created and maintained by several people across the organisation. Keeping these files organised can quickly become a management burden. Source control or version control is the practice of tracking and managing changes to code. Source control management (SCM) is the classification given to the tools that operate this process. SCM is a system which provides a running history of code development and helps to resolve conflicts when merging contributions from multiple sources.
+
+There are several SCM tools available with the most common and widely used of these tools is Git. The use of Git or SCM systems, in general, has traditionally been associated with the developer community. This observation is no longer valid, with its adoption rapidly increasing across the full range of IT roles. Familiarity with SCM tools is quickly becoming a must-have skill for developers and systems administrators alike.
 
 !["GitHub sign up"](https://git-scm.com/images/logos/2color-lightbg@2x.png "https://git-scm.com/images/logos/2color-lightbg@2x.png")
 
->Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
->Wikipedia
+> Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
-When selecting a blogging platform I wanted something that integrated the learnings of a source control system and as the most widely used system being Git this seemed like a logical choice. While technically any project that contains source files can be managed by Git, I wanted something that easy is to use and that wouldn't interfere with the content creation process.
+> Wikipedia
 
-GitHub Pages meets this brief perfectly. GitHub Pages is a free static website hosting service from GitHub that takes source files from a cloud repository managed via Git and publishes them as a website. It’s a no-brainer! Why should we install security updates, manage plugins and tune the performance of a website so our pages load fast? Blogging should be all about the writing!
+When selecting a blogging platform, I wanted something that integrated the learnings of an SCM and with Git being the logical choice. While technically any project containing any source files can be managed by Git, I wanted something that is to easy to use and had content creation as its core.
 
-With Jekyll you don’t need to worry about all of that. Jekyll has no admin interface, only source files that you can build using a CLI (command line interface) to create a static website. Simply write your blog posts in Markdown and if you choose to host your website using GitHub Pages, you can use Git to commit and push your changes to publish new posts or pages.
+GitHub Pages meets this brief perfectly. GitHub Pages is a free static website hosting service from GitHub that renders files from a Git managed cloud repository and publishes them as a website. In addition to the learning opportunities, the use of a static hosting service has many advantages. There are no databases to maintain, no plugins to manage, no security updates to install and with the removal of these overheads page load speed are greatly enhanced. 
 
-Before moving on it is worth noting that while all these technologies all have Git in there name they offer very different functionality and can cause confusion when getting started. Git and GitHub  I will provide a brief summary below;
+You might think with the removal of all these features that the functionality and flexibility would be reduced, this where static site generators (SSG) applications come in. SSG's are a software application that you run on your workstation that creates HTML files based on templates you specify and formats them for publishing to the web. There are several SSG available the one that will be the focus of this post is Jekyll as it natively supported by GitHub Pages.
+
+!["GitHub sign up"](https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png "https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png")
+
+> Jekyll does what you tell it to do — no more, no less. It doesn’t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your way and allows you to concentrate on what truly matters: your content.
+
+> Jekyll README.md
+
+
+In summary, while all the technologies mentioned above have a direct connection Git they offer very different functionality and can confuse a beginner or even a seasoned professional when getting started;
 - Git: Tool for working with source files
-- GitHub: A cloud-based repository to store source files
+- GitHub: A cloud-based repository to store Git managed source files
 - GitHub Pages: Renders source files to be displayed as a website
+- Jekyll: Tool used to generate HTML pages which can be pushed GitHub and rendered as a website
 
 The rest of this post will cover off the steps for getting started with GitHub pages.
 
 # Basic Setup
-The first step with getting started with GitHub pages, if you don't already have one, is creating a GitHub account. This is a simple as heading to GitHub.com entering a few personal details and you are good to go.
+The first step with getting started with GitHub pages, if you don't already have one, is to a GitHub account. This is a simple as heading to GitHub.com entering a few personal details and you are good to go.
 
 !["GitHub sign up"](/assets/images/posts/github-pages/gh-signup.png "Creating a GitHub Account")
 
@@ -86,12 +97,7 @@ brew install git
 ```
 Your computer is now setup and ready to us Git on your local computer and push content to a GitHib repository.
 
-## Git Commands
-Cover a few basic commands 
-
-https://git-scm.com/docs
-
-# GitHub Pages source files
+# GitHub Pages
 
 GitHub Pages publishes any static files that you push to your repository. You can create your own static files or use a static site generator to build your site for you. You can also customize your own build process locally or on another server. We recommend Jekyll, a static site generator with built-in support for GitHub Pages and a simplified build process. For more information, see "About GitHub Pages and Jekyll."
 
