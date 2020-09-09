@@ -33,7 +33,7 @@ When selecting a blogging platform, I wanted something that integrated the learn
 
 GitHub Pages meets this brief perfectly. GitHub Pages is a free static website hosting service from GitHub that renders files from a Git managed cloud repository and publishes them as a website. In addition to the learning opportunities, the use of a static hosting service has many advantages. There are no databases to maintain, no plugins to manage, no security updates to install and with the removal of these overheads page load speed are greatly enhanced. 
 
-You might think with the removal of all these features that the functionality and flexibility would be reduced, this where static site generators (SSG) applications come in. SSG's are a software application that you run on your workstation that creates HTML files based on templates you specify and formats them for publishing to the web. There are several SSG available the one that will be the focus of this post is Jekyll as it natively supported by GitHub Pages.
+When comparing against a traditional blogging platform, you might think with the removal of all these features that using a static website functionality would be reduced. While this may be true when thinking about a hosting service like GitHub Pages in isolation, this is where the use of static site generator (SSG) applications come in. SSG is a software package that you run on your workstation that creates HTML files based on templates you specify and formats them for publishing to the web. There are several SSG available the one that will be the focus of this post is Jekyll as it natively supported by GitHub Pages.
 
 !["GitHub sign up"](https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png "https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png")
 
@@ -51,124 +51,194 @@ In summary, while all the technologies mentioned above have a direct connection 
 The rest of this post will cover off the steps for getting started with GitHub pages.
 
 # Basic Setup
-The first step with getting started with GitHub pages, if you don't already have one, is to a GitHub account. This is a simple as heading to GitHub.com entering a few personal details and you are good to go.
+The first step with getting started with GitHub pages, if you don't already have one, is to create a GitHub account. This is a simple as heading to GitHub.com selecting a username and you are good to go.
 
 !["GitHub sign up"](/assets/images/posts/github-pages/gh-signup.png "Creating a GitHub Account")
 
 ## Creating a Repository
-After you have signed up the next step is creating a Repository to host your source files. 
+After you have signed up the next step is creating a repository to host your source files. 
 
-For any standard project you can name this whatever you like, for a repository to be detected by GitHub pages it needs to formatted as 'githubusername.github.io'. 
+For any standard project you can name this whatever you like, for a repository to be detected by GitHub pages it needs to formatted as 'username.github.io'. The username for my demo account in 'gac-cloud-demo' so I will name my repository 'gac-cloud-demo.github.io'. 
 
-The username for my demo account in 'gac-cloud-demo' so I will name my repository 'gac-cloud-demo.github.io'. 
+Make sure your repository is set to public so the content is visible to all.
 
 !["Creating repository"](/assets/images/posts/github-pages/gh-repo.png "Creating your GitHub pages repository")
 
 # Installing Git
-Now that we have a GitHub repository ready to host source files we need to install Git on our local computer and create the content to be published.
-Git is a free open source distribytion avalibale on Windows, Mac and Linux.
+Now that we have a GitHub repository ready to host our source files we need to install Git on our local computer and create the content to be published.
 
-In this psot i wil cover the installation method I use for Windows and Mac only, for installtio struction for the Linux distribution of you choice please visit;
+Git is available on Windows, Mac and Linux. In this post I wil cover the installation methods I use for Windows and Mac only, for installation instruction for the Linux distribution of your choice please visit;
 
-https://git-scm.com/download/
+<https://git-scm.com/download/>
 
 ## Windows
-Install Chocolatey
 
-https://chocolatey.org/install
+There are standard installation packages available for installation on Windows, but my preferred method for managing packages on Windows is using the Chocolatey package manager.
+
+For more detail on Chocolatey please visit;
+
+![Chocolatey](https://blog.ipswitch.com/hs-fs/hubfs/Featured%20Images/chocolatey-logo-1.png?width=640&name=chocolatey-logo-1.png "Chocolatey Logo")
+<https://chocolatey.org>
+
+### Install Chocolatey
+Open PowerShell as an Administrator
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-Install Git chocolatey package
+Close Powershell window
+### Install Git package
+Open PowerShell as an Administrator
 ```
 choco install Git
 ```
+Close and reopen Git as a standard user.  
+To confirm Git has been successfully installed.
+```
+git --version
+```
+At the time of writing this would return
+```
+git version 2.28.0.windows.1
+```
+Your PC is now setup and ready to use Git on your local computer and push content to a GitHib repository.
 
 ## MacOS
-Install Home brew 
+There are several options available for installing Git on MacOS. If you already have the XCode Command Line Tools installed its likely that Git will already have Git available, there is a standalone MacOS installer, ut like Windows my prefer method for managing packages is ot use a package manager. The package manager for MacOS is HomeBrew, for for details  check out the following;
 
-https://brew.sh/
+![HomeBrew](https://ioshacker.com/wp-content/uploads/2017/08/Homebrew-mac-logo.jpg "HomeBrew Logo")
+<https://brew.sh>
+
+### Install Home brew 
+Open a new Terminal window.
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-install git homebrew package
+Close and reopen Terminal
+
+### Install Git package
 ```
 brew install git
 ```
-Your computer is now setup and ready to us Git on your local computer and push content to a GitHib repository.
+Close and reopen Terminal  
+To confirm Git has been successfully installed.
+```
+git --version
+```
+At the time of writing this would return
+```
+git version 2.28.0.windows.1
+```
+Your Mac is now setup and ready to use Git on your local computer and push content to a GitHib repository.
 
 # GitHub Pages
 
-GitHub Pages publishes any static files that you push to your repository. You can create your own static files or use a static site generator to build your site for you. You can also customize your own build process locally or on another server. We recommend Jekyll, a static site generator with built-in support for GitHub Pages and a simplified build process. For more information, see "About GitHub Pages and Jekyll."
+Now that we have a functioning installation of Git on our workstation, the next steps is to create some content and push it to cloud repository to be served by GitHub pages. 
 
-GitHub Pages will use Jekyll to build your site by default. If you want to use a static site generator other than Jekyll, disable the Jekyll build process by creating an empty file called .nojekyll in the root of your publishing source, then follow your static site generator's instructions to build your site locally.
+I will cover the basics below, by creating two files, HTML and Markdown and highlight the differences between the two. For an in depth look at GitHub pages please visit;
 
-https://docs.github.com/en/github/working-with-github-pages
-
-I will cover 2 types of static files, simple HTML and markdown files renders using Jekyll.
+<https://docs.github.com/en/github/working-with-github-pages>
 
 ## Basic HTML
-Create directory and content
+HTML is the language of the web and the format that most will be familiar with.  
+
+Open your console of choice (PowerShell / Terminal)  
+First lets create directory for our files
 ```
 mkdir gac-cloud-demo
 cd gac-cloud-demo
+```
+Create a basics HTML file
+```
 echo "<h1>Hello GitHub Pages</h1>" >> index.html
 ```
-Intialise Git, add files to be versioned then commit the changes to your local Git repostory 
+Now it time to start working with Git  
+Lets first initialise our local Git repositoryIntialise Git, add files to be versioned then commit the changes to your local Git repostory 
 ```
 git init
+```
+add the conntent you want tracked by version control
+```
 git add index.html
+```
+commit the changes
+```
 git commit -m "first commit"
 ```
-Connect your local Git repository to the remote GitHub repostory to was crated earlier.
-Discuss credential manager complexities.
+We now have our first file being tracked by version control
+
+To enable the content we have jsut created to be uploaded to GitHub pages we need to link our local Git repostory with the Cloud hosted GitHub repostory we vreated earlier.
+
 ```
 git remote add origin https://github.com/gac-cloud-demo/gac-cloud-demo.github.io.git
+```
+Side note, if you have multiple GitHub accounts
+```
 git remote add origin https://gac-cloud-demo@github.com/gac-cloud-demo/gac-cloud-demo.github.io.git
 ```
-Push the commit files to the remote Git hub repostory.
+
+Now that the repositiories are linked we need to push the commited files in our local Git repostory to our cloud repository. As the this is the first time we are pushing file we need tell Git 
 ```
 git push -u origin master
 ```
-test githb url
-Log into you GitHub accoutnt and confirm the Github pages settings
+Now that the files have been uploaded we can check in on our website. First lets check the setting on our GitHub pages settings, as we name our repo 'username.github.io' these should be configured by default.
+Log into you GitHub accoutnt and confirm the Github pages settings  
+
 !["Creating repository"](/assets/images/posts/github-pages/gh-ghp-settings.png "Creating your GitHub pages repository")
 
-Now visit your GitHub pages URL and should see the render HTML code
+Now open your preffered web browser visit your GitHub pages URL and should see the render HTML .
+
+For me this is;
+
+<http://gac-cloud-demo.github.io>
+
 !["Creating repository"](/assets/images/posts/github-pages/ghp-html-render.png "Creating your GitHub pages repository")
 
 
 ## Basic MarkDown
-the github jekyll integration
-what is markdown as why is it used
-what is static site generation
+By default a file GitHub pages files are rendered via Jekyll, this enabled us to use Markdown.
 
-https://jekyllrb.com/docs/
+Markdown is a text editor that was developed to make factors such as readability of plain text documents and conversion to HTML easier. Markdown removes the requiremtn to add complex tags to format documents and relies on a simple text based structure. 
 
+Jekyll takes these simple texts files and renders in a more visually pleaseing wau to be present to the web.
+
+Lets create our first markdown file.  
+
+In the same local directory we where working in before, let create a new markdown file.
 ```
 echo "# Hello GitHub Pages" >> index.md
 ```
+Exclude the exisiting HTML file we create earlier from being tracked version control.
 ```
 git rm index.html
 ```
+Add the the new markdown file to be tracked
 ```
 git add index.md
 git commit -m "markdown commit"
+```
+As we linked our local and remote repostiories ealier and specific the destiantion for our files, we can simple run a Git push.
+```
 git push
 ```
 
-Now visit your GitHub pages URL and should see the render HTML code
+Now visit your GitHub pages URL and should see the render HTML code  
+
 !["Creating repository"](/assets/images/posts/github-pages/ghp-md-render-basic.png "Creating your GitHub pages repository")
 
-enable a github jekyll theme
-With Jekyll integration, Gihub pages offers a varitye of template you can use to format you r content.
+You will noticed some slightly improved format for which you wrote no code for. This is becuase Jekyll is doing the formating for you.
+
+Gihub pages offers a varitye of template you can use to format you r content.
+
 !["Creating repository"](/assets/images/posts/github-pages/ghp-themes.png "Creating your GitHub pages repository")
 
-With Jekyll integration, Gihub pages offers a varitye of template you can use to format you r content.
+With Jekyll integration, Gihub pages offers a varitye of template you can use to format you r content. Select a new template, for this demo we will be using 'Slate'. Browse to your URL agin and you will notice some new formating.
+
 !["Creating repository"](/assets/images/posts/github-pages/ghp-md-render-template.png "Creating your GitHub pages repository")
+
+This is the power of writing in Markdown by removing all formatting and having a Static Site Generator like Jekyll render the content for you.
 
 
 # What's Next 
-The next pot will cover using a custom theme and some of the tweaks i have used creating ChrisCoombes.com 
+The next post will cover using a custom theme and some of the tweaks i have used creating [ChrisCoombes.com](https://chriscoombes.com) 
 
-If you found this article useful, please let me know at @ccoombes83 or email me at ccoombes@outlook.com. I look forward to reading your new Jekyll blog!
+If you found this article useful, please let me know at [@ccoombes83](https://www.twitter.com/ccoombes83) or email me at [ccoombes@outlook.com](mailto:ccoombes@outlook.com). 
