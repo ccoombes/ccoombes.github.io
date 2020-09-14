@@ -16,7 +16,7 @@ tags:
   - MarkDown
   - Tutorial
 ---
-As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings modern cloud technologies. To gain the full operational benefit of these relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. 
+As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings of modern cloud technologies. To gain the full operational benefit of "the cloud" relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. 
 
 The concept of Infrastructure as Code introduces an infrastructure deployment process which describes in text files the desired state of the systems. While the theory is sound, through the ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process. 
 
