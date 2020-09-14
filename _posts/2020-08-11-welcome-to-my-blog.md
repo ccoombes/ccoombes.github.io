@@ -42,3 +42,5 @@ In the end, these are all worthless excuses if you want to improve yourself then
 What topics will be covered? In a career that has spanned almost 15 years across the full spectrum of IT Operations roles, service desk to management. While I will lean on my experiences from over the years, these roles have primarily been with manufacturing organisations with a focus on traditional on-premise infrastructure. The focus of this blog will be the discovery of the 'modern' infrastructure landscape and the practices that enable it. 
 
 Follow my journey to the clouds!
+
+If you found this article useful, please let me know at [@ccoombes83](https://www.twitter.com/ccoombes83) or email me at [ccoombes@outlook.com](mailto:ccoombes@outlook.com).
