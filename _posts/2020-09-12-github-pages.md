@@ -256,6 +256,6 @@ For example, please visit my [GitHub](https://raw.githubusercontent.com/ccoombes
 
 
 # What's Next 
-The next post will cover using a custom theme and some of the Jekyll tweaks I have used create [ChrisCoombes.com](https://chriscoombes.com). 
+The next post will cover using a custom theme and some of the Jekyll tweaks I have used to create [ChrisCoombes.com](https://chriscoombes.com). 
 
 If you found this article useful, please let me know at [@ccoombes83](https://www.twitter.com/ccoombes83) or email me at [ccoombes@outlook.com](mailto:ccoombes@outlook.com).
