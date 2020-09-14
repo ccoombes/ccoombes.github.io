@@ -1,5 +1,5 @@
 ---
-title: "Introduction to GitHub Pages and why its the chosen platform for this blog"
+title: "Introduction to GitHub Pages and why it's the chosen platform for this blog"
 header:
     image: /assets/images/posts/github-pages.jpg
     teaser: /assets/images/posts/github-pages-th.jpg
@@ -16,6 +16,8 @@ tags:
   - MarkDown
   - Tutorial
 ---
+This post is split into two parts, if you are already sold of GitHub pages and want and a technical overview of how I set it up, please click [here](#Basic-Setup) to be taken directly to the tutorial. If you are interested in understanding why I choose this platform please continue reading below.
+
 As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings of modern cloud technologies. To gain the full operational benefit of "the cloud" relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. 
 
 The concept of Infrastructure as Code introduces an infrastructure deployment process which describes in text files the desired state of the systems. While the theory is sound, through the ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process. 
