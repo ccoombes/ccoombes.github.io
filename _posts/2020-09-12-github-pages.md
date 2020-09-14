@@ -16,7 +16,9 @@ tags:
   - MarkDown
   - Tutorial
 ---
-As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings of the practices that enable and power the modern cloud technologies. To gain the full operational benefit of these practises relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. The concept of Infrastructure as Code introduces an infrastructure deployment process which describes in text files the desired state of the systems. While the theory is sound, through the ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process. 
+As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings modern cloud technologies. To gain the full operational benefit of these relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. 
+
+The concept of Infrastructure as Code introduces an infrastructure deployment process which describes in text files the desired state of the systems. While the theory is sound, through the ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process. 
 
 In a large environment, this will consist of hundreds if not thousands of files, including multiple versions. These files all need to be created and maintained by several people across the organisation. Keeping these files organised can quickly become a management burden. Source control or version control is the practice of tracking and managing changes to code. Source control management (SCM) is the classification given to the tools that operate this process. SCM is a system which provides a running history of code development and helps to resolve conflicts when merging contributions from multiple sources.
 
