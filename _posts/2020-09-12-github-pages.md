@@ -14,6 +14,7 @@ tags:
   - GitHub Pages
   - Jekyll
   - MarkDown
+  - Tutorial
 ---
 As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings of the practices that enable and power the modern cloud technologies. To gain the full operational benefit of these practises relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. The concept of Infrastructure as Code introduces an infrastructure deployment process which describes in text files the desired state of the systems. While the theory is sound, through the ability to create immutable repeatable infrastructure, it introduces a new challenge of managing and sharing the source files used in the process. 
 
@@ -27,11 +28,11 @@ There are several SCM tools available with the most common and widely used of th
 
 > [Wikipedia](https://en.wikipedia.org/wiki/Git)
 
-When selecting a blogging platform, I wanted something that integrated the learnings of an SCM and with Git being the logical choice. While technically any project containing any source files can be managed by Git, I wanted something that is to easy to use and had content creation as its core.
+When selecting a blogging platform, I wanted something that integrated a content management system while learning the basics of Git. While technically any project containing source files can be managed by Git, I was looking for a platform that is easy to use and had content creation as its core.
 
 GitHub Pages meets this brief perfectly. GitHub Pages is a free static website hosting service from GitHub that renders files from a Git managed cloud repository and publishes them as a website. In addition to the learning opportunities, the use of a static hosting service has many advantages. There are no databases to maintain, no plugins to manage, no security updates to install and with the removal of these overheads page load speed are greatly enhanced. 
 
-When comparing against a traditional blogging platform, you might think with the removal of all these features that using a static website functionality would be reduced. While this may be true when thinking about a hosting service like GitHub Pages in isolation, this is where the use of static site generator (SSG) applications come in. SSG is a software package that you run on your workstation that creates HTML files based on templates you specify and formats them for publishing to the web. There are several SSG available the one that will be the focus of this post is Jekyll as it natively supported by GitHub Pages.
+When comparing against a traditional blogging platform, you might think with the removal of all these features that using a static website functionality would be reduced. While this may be true when thinking about a hosting service like GitHub Pages in isolation, this is where the use of static site generator (SSG) applications come in. SSG is a software package that you run on your workstation that creates HTML files based on templates you specify and formats them for publishing to the web. There are several SSG's available the one that will be the focus of this post is Jekyll as it's natively supported by GitHub Pages.
 
 !["Jekyll Logo"](https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png "https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png")
 
@@ -40,7 +41,7 @@ When comparing against a traditional blogging platform, you might think with the
 > [Jekyll README.md](https://github.com/jekyll/jekyll/blob/master/README.markdown)
 
 
-In summary, while all the technologies mentioned above have a direct connection Git they offer very different functionality and can confuse a beginner or even a seasoned professional when getting started;
+In summary, while all the technologies mentioned above have a direct connection with Git they offer very different functionality and can confuse a beginner or even a seasoned professional when getting started;
 - Git: Tool for working with source files
 - GitHub: A cloud-based repository to store Git managed source files
 - GitHub Pages: Renders source files to be displayed as a website
