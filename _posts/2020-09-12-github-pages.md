@@ -16,7 +16,7 @@ tags:
   - MarkDown
   - Tutorial
 ---
-This post is split into two parts, if you are already sold of GitHub pages and want and a technical overview of how I set it up, please click [here](#basic-setup) to be taken directly to the tutorial. If you are interested in understanding why I choose this platform please continue reading below.
+This post is split into two parts, if you are already sold of GitHub Pages and want and a technical overview of how I set it up, please click [here](#basic-setup) to be taken directly to the tutorial. If you are interested in understanding why I chose this platform please continue reading below.
 
 As the tag line of this site and the themes highlighted in my initial [post](/blog/welcome-to-my-blog/) would indicate, the primary driver for setting up this site was to document my learnings of modern cloud technologies. To gain the full operational benefit of "the cloud" relies on automating all aspects of the environment, including the ability to rapidly provision and manage infrastructure. 
 
