@@ -39,7 +39,7 @@ Set-ExecutionPolicy Unrestricted
 Close powershell window
 
 Launch a Standard user PowerShell window
-```
+``` 
 #install Ruby dev environment
 ridk install
 - Just hit enter
