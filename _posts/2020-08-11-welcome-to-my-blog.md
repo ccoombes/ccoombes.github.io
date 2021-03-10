@@ -1,8 +1,8 @@
 ---
 title: "Starting a Tech blog!"
 header:
-    image: /assets/images/posts/welcome-to-my-blog.jpg
-    teaser: /assets/images/posts/welcome-to-my-blog-th.jpg
+    image: /assets/images/posts/welcome/welcome-to-my-blog.jpg
+    teaser: /assets/images/posts/welcome/welcome-to-my-blog-th.jpg
 categories:
   - blog
 tags:

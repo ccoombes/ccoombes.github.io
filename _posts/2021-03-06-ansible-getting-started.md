@@ -23,4 +23,10 @@ Using docker to setup a dev environment
 
 Josh duffney book.
 
-Always aware of wirm and it use within powershell remoting, but with windows it just worked. Ansible uses winrm 
+Always aware of wirm and it use within powershell remoting, but with windows it just worked. Ansible uses winrm but requried understand how it worked from a deeper level. Initally what i found in the docs and online suggested that Kereberos with SSL is what was required, this opened up some greater challehes and required some manual configuration on the end point to get up and running, which i felt went against the IaC concept.
+
+Also understood more about the winrm / firewall setup of windows server out of the box.
+
+It wasn't until i discovered the use message enryption flag that it all started to fit together.
+
+No i have only done some minor things so far, add to domain, mange some software with choco, built a domain controller, some windows patching so very much a nood when it comes to ansible but it can definitely can now see the benefit and wil be continuing on this path.  expect a few more ansible blog posts in the future.

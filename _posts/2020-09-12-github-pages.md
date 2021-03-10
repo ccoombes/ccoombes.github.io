@@ -1,8 +1,8 @@
 ---
 title: "Introduction to GitHub Pages and why it's the chosen platform for this blog"
 header:
-    image: /assets/images/posts/github-pages.jpg
-    teaser: /assets/images/posts/github-pages-th.jpg
+    image: /assets/images/posts/github-pages/github-pages.jpg
+    teaser: /assets/images/posts/github-pages/github-pages-th.jpg
 toc: true
 toc_label: "Contents"
 toc_icon: "book"  
