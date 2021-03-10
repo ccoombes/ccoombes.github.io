@@ -9,7 +9,7 @@ $masthead-link-color: #a9a9b3;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.page__hero-image {width: 100%; height: 400px; -ms-interpolation-mode: bicubic;}
+.page__hero-image {width: 100%; height: auto; -ms-interpolation-mode: bicubic;}
 .page__meta {color: white;}
 .archive__subtitle {color: white;}
 .pagination li a {color: #a9a9b3;}

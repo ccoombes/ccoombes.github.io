@@ -1,8 +1,8 @@
 ---
 title: "Getting started with Ansible"
 header:
-    image: /assets/images/posts/ansible.jpg
-    teaser: /assets/images/posts/ansible-th.jpg
+    image: /assets/images/posts/ansible/ansible.jpg
+    teaser: /assets/images/posts/ansible/ansible-th.jpg
 toc: true
 toc_label: "Contents"
 toc_icon: "Book"  
