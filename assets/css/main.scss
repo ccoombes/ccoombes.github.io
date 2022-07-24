@@ -36,14 +36,14 @@ $masthead-link-color: #a9a9b3;
 
 html {font-size: 14px; color: #a9a9b3; background-color: #292a2d;
   @include breakpoint($medium) {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   @include breakpoint($large) {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
