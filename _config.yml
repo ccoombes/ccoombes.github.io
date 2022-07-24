@@ -38,7 +38,7 @@ plugins:
 
 author:
   name : Chris Coombes 
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo-suit.jpg"
   bio    : "Experienced IT professional with a deep understanding of Enterprise IT, System Administration and Team Leadership.<br><br>Infrastructure - DevOps - Automation" 
   location : "Sydney / Australia"
   links:
