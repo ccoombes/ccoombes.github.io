@@ -1,14 +1,13 @@
 locale: en-AU
 title: ChrisCoombes.com
-title_separator: "-"
-subtitle: "Journey to the clouds" # site tagline that appears below site title in masthead
+title_separator: " "
 logo: "/assets/images/logo.png"
 email: ccoombes@outlook.com
 description: Chris Coombes's personal blog about cloud, devops, infrastructue as code, powershell, windows, linux and automation.
 twitter_username: ccoombes83
 github_username: ccoombes
 minimal_mistakes_skin: air
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -40,30 +39,27 @@ plugins:
 author:
   name : Chris Coombes 
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Experienced IT professional exploring the 'modern' infrastructure landscape and the practices that enable it.<br><br>Cloud - DevOps - Automation" 
+  bio    : "Experienced IT professional with a deep understanding of Enterprise IT, System Administration and Team Leadership.<br><br>Infrastructure - DevOps - Automation" 
   location : "Sydney / Australia"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://chriscoombes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ccoombes83"
     - label: "linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/chris-coombes-b0731922/"   
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ccoombes83"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ccoombes"
 
 footer:
   links:
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chris-coombes-b0731922/"  
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ccoombes83"
-    - label: "linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/chris-coombes-b0731922/"    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ccoombes"
@@ -71,7 +67,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single

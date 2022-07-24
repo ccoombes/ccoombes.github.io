@@ -18,6 +18,21 @@ $masthead-link-color: #a9a9b3;
 .toc a:hover { color: black;}
 .greedy-nav {background:#252627;}
 .page__title {color: white;}
+.page__lead {align-items: center;}
+.page__hero--overlay .page__lead {max-width: none;}
+.wrapper {text-align: center;}
+.layout--splash .initial-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 auto;
+  flex-direction: column;
+}
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: 16px;
+}
+.author__bio {font-size: 18px;}
 
 html {font-size: 14px; color: #a9a9b3; background-color: #292a2d;
   @include breakpoint($medium) {
