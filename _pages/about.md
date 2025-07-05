@@ -4,15 +4,23 @@ title: "About"
 ---
 Hi, I'm Chris Coombes!
 
-With over 16 years experience in the Information & Operational Technology industry across a range of roles, I have a deep understanding of Enterprise Infrastructure, Public Cloud, Data Centre Management, Systems Administration and Team Leadership. 
+Seasoned cybersecurity professional with 20 years of experience in technology, specialising in security operations, service delivery and infrastructure management.
 
-I have a key focus on delivering robust, secure, scalable IT solutions that offer significant business value now and into the future. 
+Proven ability to lead teams, designing and optimizing SIEM platforms, managing log pipelines, and engineering advanced detection capabilities to ensure resilience against evolving cyber threats.
 
-A self-motivated individual with an appetite for continual learning, with key areas of interest being Dev Ops, infrastructure as code and cloud technologies. I thrive on being an engaged team member with a passion to empower and motivate others by sharing my knowledge and experience.
+I have a strong focus on building scalable, secure solutions that align cybersecurity objectives with business priorities, ensuring continuous protection against evolving threats.
 
-Competencies: Team Leadership, Project Management, Infrastructure Management, Systems Administration, PowerShell Scripting, Disaster Recovery, Datacentre Consolidation & Microsoft 365.
+With deep expertise in incident response, forensic analysis, and threat intelligence, I excel at strengthening security postures and driving operational excellence across complex IT and OT environments.
+
+Competencies: Cyber Operations Leadership, SIEM Management & Threat Detection, Incident Response & Forensics, Log Pipeline Optimization, Stakeholder Engagement & Advisory, Team Development & Mentorship
 
 # Certifications
+
+## AUGUST 2024
+**GIAC CERTIFIED FORENSIC ANALYST (GCFA)**, GIAC CERTIFCATIONS
+
+## FEBRUARY 2024
+**ELASTIC CERTIFIED ANALYST**, ELASTIC
 
 ## FEBRUARY 2021
 **MS-900 - MICROSOFT 365 FUNDAMENTALS**, MICROSOFT
@@ -27,23 +35,39 @@ Competencies: Team Leadership, Project Management, Infrastructure Management, Sy
 
 # Experience
 
-## MARCH 2021 – CURRENT
+## JUNE 2023 - CURRENT
+### SENIOR CYBER SECRITY ANALYST, AUSGRID
+In my current role as a Senior Cyber Security Analyst, I play a crucial role in protecting Ausgrid’s ICT & OT assets by monitoring and analysing security data across network, cloud, identity and endpoint security
+platforms to proactively detect and mitigate cyber threats.
+
+Leading the design and implementation of our security monitoring technologies, I strive to continuously improve our detection capabilities.
+
+My role involves working with internal and external stakeholders to develop technical solutions, implement security capabilities, and provide expert guidance during incident response.
+In a rostered on-call environment, I contribute to incident management, process refinement, and security operations, ensuring an adaptive and resilient approach to cybersecurity.
+
+Additionally, I stay ahead of evolving threat landscapes by proactively engaging with our threat intel partners and researching the latest cyber threats and developing proactive mitigation strategies.
+Committed to knowledge-sharing and skill development, I mentor junior SOC team members, fostering a strong security culture within the organisation.
+
+Key responsibilities:
+- Threat Detection & Response – Oversee security monitoring and lead investigations into emerging threats.
+- SIEM Management & Detection Engineering – Optimize SIEM performance, enhance detection analytics, and refine log pipelines.
+- Incident Response Leadership – Develop and implement response strategies, ensuring rapid containment and forensic analysis.
+- Security Architecture & Compliance – Align cybersecurity frameworks with industry regulations and best practices.
+- Stakeholder Engagement – Collaborate with internal and external partners to implement security solutions and provide incident guidance.
+- Threat Intelligence & Research – Stay ahead of evolving cyber threats, developing proactive mitigation strategies.
+- Team Development & Mentorship – Train and mentor SOC team members, fostering a strong security culture.
+
+## MARCH 2021 – JUNE 2023
 ### LEAD OPERATIONS ENGINEER, NEXON
-In my current role as a Lead Operations Engineer at Nexon, I’m responsible for the efficient delivery of IT service into key customer accounts. The position is aligned with a “Care Team”, which involves providing leadership, support and mentoring to a team of highly skilled operational engineers.
+As a Lead Operations Engineer at Nexon, I was responsible for the efficient delivery of IT service into key customer accounts. The position was aligned with a “Care Team”, which involves providing leadership, support and mentoring to a team of highly skilled operational engineers.
 
 Overseeing the delivery of service into a range of customers across various industries including but not limited to, Critical Infrastructure, Health Care, Higher Education and Transport. Ensuring that all tasks are managed inline with the ITIL framework and are actioned appropriately. 
 
 A key driver of mine is achieving customer satisfaction and aligning business objectives and contractual obligations.
 
-I also act as an escalation point for resolving issues affecting the efficient delivery of all operations across all customers.
+Acted as an escalation point for resolving issues affecting the efficient delivery of all operations across all customers.
 
-Key engagements I have been involved with to date;
-
-- Critical Infrastructure - Nexon has been engaged by a major critical infrastructure provider to coordinate the replacement of a large control system. I am the Lead Engineer responsible for managing the infrastructure implementation and for building out the team and processes to support the project through the delivery phase, system go-live and beyond. 
-- Data Protection -  Lead Engineer responsible for transitioning the management & monitoring of the Microsoft 365 and Dell Networker backup environments of large higher education providers into Nexon(CSA) managed services. This included analysing multiple disparate environments to ensure compliance with best practise, identifying risks with the current implementations and providing corrective action recommendations. 
-- Essential 8 - Primary engineer responsible for the analysis, design, and implementation of the required security controls to raise a large customer's ASD Essential 8 maturity level. Provided a detailed design and guidance on the required ITSM practises to ensure that the maturity level is maintained.
-- Azure - Responsible for transitioning to managed services the monitoring and day to day management for multiple Azure customers.
-- Virtualisation - Took on the day monitoring and management of a large health care providers multiple most, multi sites vsphere & commvault environment. Provided guidance on capacity planning and hardware upgrades. 
+Key Project: Critical infrastructure control system replacement, Essential 8 maturity level compliance, Azure Monitoring & Management, Virtualisation management, capacity planning & upgrades.
 
 ## MARCH 2017 – MARCH 2021
 ### INFRASTRUCTURE LEAD, OVATO

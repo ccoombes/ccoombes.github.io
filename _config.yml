@@ -2,9 +2,8 @@ locale: en-AU
 title: ChrisCoombes.com
 title_separator: " "
 logo: "/assets/images/logo.png"
-email: ccoombes@outlook.com
-description: Chris Coombes's personal blog about cloud, devops, infrastructue as code, powershell, windows, linux and automation.
-twitter_username: ccoombes83
+email: mail@chriscoombes.com
+description: Chris Coombes's personal blog about cyber security operations, siem, log pipelines, incident response, forensics, windows, linux and automation.
 github_username: ccoombes
 minimal_mistakes_skin: air
 search: false
@@ -39,30 +38,30 @@ plugins:
 author:
   name : Chris Coombes 
   avatar : "/assets/images/bio-photo-suit.jpg"
-  bio    : "Experienced IT professional with a deep understanding of Enterprise IT, System Administration and Team Leadership.<br><br>Infrastructure - DevOps - Automation" 
-  location : "Sydney / Australia"
+  bio    : "Seasoned cybersecurity professional with 20 years of experience in technology, specialising in security operations, service delivery and infrastructure management.<br><br>Cyber Security Operations - SIEM - Log Pipelines - Automation" 
+  location : "Newcastle / Australia"
   links:
     - label: "linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/chris-coombes-b0731922/"   
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ccoombes83"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ccoombes"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mail@chriscoombes.com"
 
 footer:
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/chris-coombes-b0731922/"  
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ccoombes83"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ccoombes"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mail@chriscoombes.com"
 
 defaults:
   # _posts
