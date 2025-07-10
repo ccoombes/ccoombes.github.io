@@ -47,3 +47,19 @@ html {font-size: 14px; color: #a9a9b3; background-color: #292a2d;
     font-size: 16px;
   }
 }
+.console {
+  font-family: monospace;
+  font-size: 1.5rem;
+  white-space: pre;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  background-color: black;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { background-color: transparent; }
+}

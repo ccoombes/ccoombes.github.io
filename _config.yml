@@ -1,5 +1,5 @@
 locale: en-AU
-title: ChrisCoombes.com
+title: Chris Coombes _
 title_separator: " "
 logo: "/assets/images/logo.png"
 email: mail@chriscoombes.com
@@ -38,7 +38,7 @@ plugins:
 author:
   name : Chris Coombes 
   avatar : "/assets/images/bio-photo-suit.jpg"
-  bio    : "Seasoned cybersecurity professional with 20 years of experience in technology, specialising in security operations, service delivery and infrastructure management.<br><br>Cyber Security Operations - SIEM - Log Pipelines - Automation" 
+  bio    : "Cybersecurity professional with 20 years of experience in technology, specialising in security operations, service delivery and infrastructure management.<br><br>Cyber Security Operations - SIEM - Log Pipelines - Automation" 
   location : "Newcastle / Australia"
   links:
     - label: "linkedin"
